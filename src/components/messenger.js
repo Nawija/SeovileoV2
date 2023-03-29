@@ -25,7 +25,7 @@ const Messenger = () => {
             to="https://www.facebook.com/profile.php?id=100090402000669"
         >
             <StaticImage
-                className="h-auto w-11"
+                className="h-auto w-12"
                 placeholder="blurred"
                 quality="100"
                 src="../assets/messenger.png"

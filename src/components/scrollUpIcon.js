@@ -31,7 +31,7 @@ const ScrollUpIcon = () => {
             to="#"
         >
             <StaticImage
-                className="h-auto w-11"
+                className="h-auto w-12"
                 placeholder="blurred"
                 quality="100"
                 src="../assets/scrollUp.png"
