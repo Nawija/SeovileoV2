@@ -2,7 +2,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-    pathPrefix: "/newSeovileo",
+    pathPrefix: "/SeovileoV2",
     siteMetadata: {
         title: `Tworzenie Stron Internetowych Seo www`,
         description: `Strona Internetowa poświęcona charakterystyce tworzenia szybkich stron www z wykorzystaniem popularnego frameworka GatsbyJS.`,

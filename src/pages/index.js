@@ -17,8 +17,7 @@ const IndexPage = () => {
             <CardsComponent />
             <IphoneComponent />
             <WhyGatsbyComponent />
-
-            <div className="h-[200vh]"></div>
+            
         </Layout>
     );
 };
