@@ -22,6 +22,7 @@ const ScrollUpIcon = () => {
 
     return (
         <Link
+            aria-label="scroll to home"
             className={
                 !ScrollUpIcon
                     ? "fixed right-4 bottom-20 transition-transform duration-1000 z-50 translate-x-[200%]"
@@ -29,7 +30,12 @@ const ScrollUpIcon = () => {
             }
             to="#"
         >
-            <StaticImage className="h-auto w-11" placeholder="blurred" quality="100" src="../assets/scrollUp.png" />
+            <StaticImage
+                className="h-auto w-11"
+                placeholder="blurred"
+                quality="100"
+                src="../assets/scrollUp.png"
+            />
         </Link>
     );
 };

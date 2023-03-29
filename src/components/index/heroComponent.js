@@ -34,6 +34,7 @@ const HeroComponents = () => (
                             className=" flex items-start justify-start mt-1"
                         >
                             <StaticImage
+                                loading="eager"
                                 height={30}
                                 width={30}
                                 src="../../assets/star.png"
@@ -114,7 +115,13 @@ const HeroComponents = () => (
                 </div>
             </div>
         </div>
-        <div className="absolute sm:scale-110 md:scale-100 bottom-0  w-full md:top-0 md:w-3/4 lg:w-[60%] xl:w-[50%] h-[80%] md:h-full md:right-0"><StaticImage className="h-full w-auto" placeholder="blurred" src="../../assets/blurCircle.png" /></div>
+        <div className="absolute sm:scale-110 md:scale-100 bottom-0  w-full md:top-0 md:w-3/4 lg:w-[60%] xl:w-[50%] h-[80%] md:h-full md:right-0">
+            <StaticImage
+                className="h-full w-auto"
+                placeholder="blurred"
+                src="../../assets/blurCircle.png"
+            />
+        </div>
         <div className="relative">
             <div className="text-gray-500 font-medium uppercase">
                 <div

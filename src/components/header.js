@@ -34,7 +34,7 @@ const Header = () => {
                     className={
                         !navbar
                             ? "h-full w-full absolute top-0 -z-10 transition-colors duration-300"
-                            : "h-full w-full bg-white lg:bg-white/80 lg:backdrop-blur-lg absolute top-0 -z-10 transition-colors duration-500"
+                            : "h-full w-full bg-white/90 lg:bg-white/80 lg:backdrop-blur-lg absolute top-0 -z-10 transition-colors duration-500"
                     }
                 ></div>
                 <nav
