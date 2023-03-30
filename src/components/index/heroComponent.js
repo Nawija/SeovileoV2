@@ -8,14 +8,14 @@ const HeroComponents = () => (
         <div className="bg-[#00d5ff] translate-x-1/2 md:hidden top-[22%] right-0 h-20 w-20 absolute rounded-full blur-3xl" />
         <div className="z-10 mb-6 md:mb-0 w-full md:w-3/4 lg:w-1/2">
             <div className="flex flex-col items-center md:items-start text-center md:text-start justify-center text-base md:py-4 mt-1">
-                <h2 className=" changeColor capitalize font-extrabold text-green-400 text-xl md:ml-1 xl:text-3xl tracking-wider">
+                <h2 className=" changeColor capitalize font-extrabold text-green-400 text-xl md:ml-1 xl:ml-6 xl:text-3xl tracking-wider">
                     Freelancer
                 </h2>
-                <h3 className="capitalize lg:drop-shadow text-3xl lg:text-5xl xl:text-6xl lg:py-2 font-bold">
+                <h3 className="capitalize lg:drop-shadow text-3xl lg:text-5xl xl:text-6xl lg:py-2 font-bold xl:ml-3">
                     Stwórz z nami swoja wizytówkę
                 </h3>
                 <h1 className="capitalize text-base xl:text-xl mt-2">
-                    Strona Internetowa za darmo !!
+                    Strona Internetowa za darmo
                 </h1>
                 <p className="text-base xl:text-xl md:w-[90%]">
                     Tak mozna powiedziec porównujac jakość w stosunku do ceny vs
@@ -24,7 +24,7 @@ const HeroComponents = () => (
                     Skontaktuj się z nami, aby uzyskać darmową wycenę i
                     rozpocząć współpracę już dziś!
                 </p>
-                <div className="flex flex-col items-start justify-start mt-3">
+                <div className="flex flex-col items-start xl:ml-3 justify-start mt-3">
                     <div className="flex md:flex-col lg:flex-row items-start justify-start">
                         <div
                             data-sal="zoom-out"
@@ -99,7 +99,7 @@ const HeroComponents = () => (
                         </div>
                     </div>
                 </div>
-                <div className="my-12 text-gray-700">
+                <div className="my-12 xl:ml-6 text-gray-700">
                     <Link
                         to="/usługi"
                         className="bg-gradient-to-tl from-green-300 to-green-600 lg:text-lg text-base text-gray-100 shadow-xl shadow-green-500 transition-all hover:shadow-green-600 duration-300 py-3 px-6 -tracking-wide rounded-lg"
