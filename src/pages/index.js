@@ -8,6 +8,7 @@ import {
     CardsComponent,
     IphoneComponent,
     WhyGatsbyComponent,
+    CompaniesComponent,
 } from "../components/index/indexComponents";
 
 const IndexPage = () => {
@@ -17,6 +18,7 @@ const IndexPage = () => {
             <CardsComponent />
             <IphoneComponent />
             <WhyGatsbyComponent />
+            <CompaniesComponent />
             
         </Layout>
     );

@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 const WhyGatsbyComponent = () => (
-    <section className="text-gray-700 px-4 relative mx-auto max-w-screen-xl overflow-hidden md:overflow-visible">
+    <section className="text-gray-700 px-4 relative mx-auto max-w-screen-xl overflow-hidden">
         <div className="flex flex-col md:flex-row mx-auto items-center justify-around px-3 w-full mt-1">
         
              <div className="md:order-1">
