@@ -102,13 +102,13 @@ const HeroComponents = () => (
                 <div className="my-12 text-gray-700">
                     <Link
                         to="/usługi"
-                        className="bg-gradient-to-tl from-green-300 to-green-600 lg:text-lg text-base text-gray-100 shadow-xl shadow-green-500 transition-all duration-300 py-3 px-6 -tracking-wide rounded-lg"
+                        className="bg-gradient-to-tl from-green-300 to-green-600 lg:text-lg text-base text-gray-100 shadow-xl shadow-green-500 transition-all hover:shadow-green-600 duration-300 py-3 px-6 -tracking-wide rounded-lg"
                     >
                         Oferta
                     </Link>
                     <Link
                         to="/portfolio"
-                        className="bg-gradient-to-tl from-orange-300 to-orange-600 text-slate-100 py-3 px-6 -tracking-wide rounded-lg shadow-xl shadow-orange-500 transition-all duration-300 lg:text-lg text-base md:ml-6 lg:ml-8 ml-4"
+                        className="bg-gradient-to-tl from-orange-300 to-orange-600 text-slate-100 py-3 px-6 -tracking-wide rounded-lg shadow-xl shadow-orange-500 hover:shadow-orange-600 transition-all duration-300 lg:text-lg text-base md:ml-6 lg:ml-8 ml-4"
                     >
                         Portfolio
                     </Link>

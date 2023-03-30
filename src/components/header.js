@@ -46,7 +46,7 @@ const Header = () => {
                 >
                     <Link
                         to="/"
-                        className="flex items-center py-3 gap-1.5 text-xl font-medium text-gray-600"
+                        className="flex items-center py-3 gap-1.5 text-xl font-semibold text-gray-700"
                         aria-label="logo"
                     >
                         <svg

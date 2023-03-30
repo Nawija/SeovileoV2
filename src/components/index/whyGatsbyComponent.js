@@ -29,13 +29,13 @@ const WhyGatsbyComponent = () => (
                 </p>
                 <div className="my-12 text-gray-100 flex items-center justify-center md:justify-start ">
                     <Link
-                        to="/"
+                        to="/portfolio"
                         className="bg-gradient-to-tl from-blue-400 to-blue-500 text-base hover:shadow-blue-700 transition-all duration-300 py-2 px-6 -tracking-wide rounded-lg shadow-lg shadow-blue-500"
                     >
                         Projekty
                     </Link>
                     <Link
-                        to="/"
+                        to="/kontakt"
                         className="bg-gradient-to-tl from-yellow-400 to-amber-600 py-2 px-6 -tracking-wide rounded-lg shadow-lg hover:shadow-amber-700 transition-all duration-300 shadow-amber-600 text-base md:ml-6 lg:ml-8 ml-4"
                     >
                         Kontakt
