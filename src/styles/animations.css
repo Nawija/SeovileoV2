@@ -12,52 +12,40 @@
 }
 
 @media (min-width: 1024px) {
-    .c1 {
-        animation: c1 2s ease-in alternate-reverse infinite;
-    }
     .card1 {
-        animation: card1 1.2s ease-in alternate-reverse 0.55s infinite;
+        animation: card1 1.2s ease-in alternate-reverse 1.15s infinite;
     }
     .card2 {
-        animation: card2 1.4s ease-in alternate-reverse 0.25s infinite;
+        animation: card2 1.4s ease-in alternate-reverse 1.55s infinite;
     }
     .card3 {
-        animation: card3 1.3s ease-in alternate-reverse infinite;
-    }
-}
-
-@keyframes c1 {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-20%);
+        animation: card3 1s ease-in alternate-reverse 1.33s infinite;
     }
 }
 
 @keyframes card1 {
     0% {
-        transform: translateX(0%) translateY(0%);
+        transform: translateX(-10%) translateY(-4%);
     }
     100% {
-        transform: translateX(-10%) translateY(-4%);
+        transform: translateX(0) translateY(0);
     }
 }
 
 @keyframes card2 {
     0% {
-        transform: translateX(0%) translateY(0%);
+        transform: translateX(-4%) translateY(-8%);
     }
     100% {
-        transform: translateX(-4%) translateY(-8%);
+        transform: translateX(0) translateY(0);
     }
 }
 
 @keyframes card3 {
     0% {
-        transform: translateX(2%) translateY(3%);
+        transform: translateX(-7%);
     }
     100% {
-        transform: translateX(-7%) translateY(-6%);
+        transform: translateX(0);
     }
 }

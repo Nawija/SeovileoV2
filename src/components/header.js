@@ -162,6 +162,14 @@ const Header = () => {
                         </li>
                         <li className="mx-2 my-2 px-2 py-3">
                             <Link
+                                className="hover:text-orange-400 transition-colors duration-200 font-bold"
+                                to="/usługi"
+                            >
+                                Usługi
+                            </Link>
+                        </li>
+                        <li className="mx-2 my-2 px-2 py-3">
+                            <Link
                                 className=" hover:text-orange-400 transition-colors duration-200 font-bold"
                                 to="/portfolio"
                             >
