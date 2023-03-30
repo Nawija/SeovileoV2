@@ -46,7 +46,7 @@ const HeroComponents = () => (
                         </div>
                         <div
                             data-sal="zoom-out"
-                            data-sal-delay="200"
+                            data-sal-delay="100"
                             data-sal-duration="600"
                             data-sal-easing="ease"
                             className=" flex items-start justify-start mt-1 ml-1 font-semibold sm:ml-3"
@@ -65,7 +65,7 @@ const HeroComponents = () => (
                     <div className="flex md:flex-col lg:flex-row items-start justify-start">
                         <div
                             data-sal="zoom-out"
-                            data-sal-delay="400"
+                            data-sal-delay="200"
                             data-sal-duration="600"
                             data-sal-easing="ease"
                             className=" flex items-start justify-start mt-1"
@@ -82,7 +82,7 @@ const HeroComponents = () => (
                         </div>
                         <div
                             data-sal="zoom-out"
-                            data-sal-delay="600"
+                            data-sal-delay="300"
                             data-sal-duration="600"
                             data-sal-easing="ease"
                             className=" flex items-start justify-start mt-1 ml-3 font-semibold sm:ml-3"
@@ -151,7 +151,7 @@ const HeroComponents = () => (
                 </div>
                 <div
                     data-sal="slide-right"
-                    data-sal-delay="300"
+                    data-sal-delay="0"
                     data-sal-duration="700"
                     data-sal-easing="ease"
                     className="realtive card2 top-[20%] left-[5%] bg-white/30 backdrop-blur-2xl rounded-2xl w-60 h-32 lg:w-72 lg:h-44 -mt-4 ml-14"
@@ -168,7 +168,7 @@ const HeroComponents = () => (
                 </div>
                 <div
                     data-sal="slide-left"
-                    data-sal-delay="600"
+                    data-sal-delay="0"
                     data-sal-duration="700"
                     data-sal-easing="ease"
                     className="realtive card3 top-[20%] left-[5%] bg-white/30 backdrop-blur-2xl rounded-2xl w-60 h-32 lg:w-72 lg:h-44 -mt-4 ml-2"

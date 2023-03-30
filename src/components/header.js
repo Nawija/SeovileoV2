@@ -34,14 +34,14 @@ const Header = () => {
                     className={
                         !navbar
                             ? "h-full w-full absolute top-0 -z-10 transition-colors duration-300"
-                            : "h-full w-full bg-white/90 lg:bg-white/80 lg:backdrop-blur-lg absolute top-0 -z-10 transition-colors duration-500"
+                            : "h-full w-full bg-white lg:bg-white/80 lg:backdrop-blur-lg absolute top-0 -z-10 transition-colors duration-500"
                     }
                 ></div>
                 <nav
                     className={
                         showMenu
-                            ? "max-w-screen-2xl mx-auto px-4 md:py-4 flex items-center justify-between w-full bg-white transition-colors duration-200 "
-                            : "max-w-screen-2xl mx-auto px-4 md:py-2 flex items-center justify-between w-full transition-colors duration-200"
+                            ? "max-w-screen-xl mx-auto px-4 md:py-4 flex items-center justify-between w-full bg-white transition-colors duration-200 "
+                            : "max-w-screen-xl mx-auto px-4 md:py-2 flex items-center justify-between w-full transition-colors duration-200"
                     }
                 >
                     <Link
