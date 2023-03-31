@@ -147,9 +147,7 @@ const Portfolio = () => {
                                                     Zamknij
                                                 </button>
                                                 <p className="relative left-0 text-start text-gray-700 text-xs p-2 w-3/4 lg:hidden">
-                                                    Zobacz jak strona wyglada na
-                                                    innych uzadzeniach zaloguj
-                                                    sie na PC
+                                                    Wiecej funkcji na PC
                                                 </p>
                                                 <button
                                                     onClick={LiveDesktop}
