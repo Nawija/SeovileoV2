@@ -19,12 +19,12 @@ const Portfolio = () => {
     const web1 = () => {
         setLive(!showLive);
         setBody(!hiddenBody);
-        setUrlLive("https://nazoltej.pl/");
+        setUrlLive("https://nawija.github.io/nazoltej/");
     };
     const web2 = () => {
         setLive(!showLive);
         setBody(!hiddenBody);
-        setUrlLive("https://nazoltej.pl/");
+        setUrlLive("https://nawija.github.io/nazoltej/");
     };
     const web3 = () => {
         setLive(!showLive);
@@ -63,6 +63,7 @@ const Portfolio = () => {
                                         <StaticImage
                                             loading="eager"
                                             alt="ecommerce"
+                                            quality={100}
                                             className="object-cover object-center w-full h-full block"
                                             src="../assets/portfolio/mac1.png"
                                             placeholder="blurred"
@@ -205,6 +206,7 @@ const Portfolio = () => {
                                     {!showLive ? (
                                         <StaticImage
                                             loading="eager"
+                                            quality={100}
                                             alt="ecommerce"
                                             className="object-cover object-center w-full h-full block"
                                             src="../assets/portfolio/mac1.png"
@@ -235,6 +237,7 @@ const Portfolio = () => {
                                     {!showLive ? (
                                         <StaticImage
                                             loading="eager"
+                                            quality={100}
                                             alt="ecommerce"
                                             className="object-cover object-center w-full h-full block"
                                             src="../assets/portfolio/mac3.png"
