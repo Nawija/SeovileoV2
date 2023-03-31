@@ -139,7 +139,7 @@ const Portfolio = () => {
                                                 </svg>
                                                 Seovileo
                                             </Link>
-                                            <div className="relative top-0 flex py-1 items-center justify-start lg:justify-center w-full bg-gray-200">
+                                            <div className="relative top-0 flex py-2 lg:py-1 items-center justify-start lg:justify-center w-full bg-gray-200">
                                                 <button
                                                     onClick={web1}
                                                     className="absolute top-[50%] md:top-[45%] right-5 -translate-y-1/2 py-1 lg:py-2 text-gray-100 m-0 lg:px-5 px-2 bg-gradient-to-tl from-red-500 to-red-700 rounded-lg shadow-lg shadow-red-500 z-50"
