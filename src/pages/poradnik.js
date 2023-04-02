@@ -162,16 +162,21 @@ const Poradnik = ({ data }) => {
                     </div>
                 </div>
                 {allDatoCmsPoradnik.edges.map(({ node }) => (
-                    <div id={node.hook} className="flex flex-wrap items-stretch justify-center px-3 py-3">
+                    <div
+                        id={node.hook}
+                        className="flex flex-wrap items-stretch justify-center px-3 py-3"
+                    >
                         <div
                             style={{ order: node.order }}
                             className="relative w-full order lg:w-1/2 flex flex-col items-center justify-center"
                         >
-                            <StaticImage
-                                className="opacity-10 md:opacity-5 absolute -z-20"
-                                src="../assets/abstract.png"
-                                quality={0}
-                            />
+                            <div className="absolute -z-20">
+                                <StaticImage
+                                    className="opacity-10 md:opacity-5"
+                                    src="../assets/abstract.png"
+                                    quality={0}
+                                />
+                            </div>
                             <h3 className="text-center text-xl md:text-2xl capitalize">
                                 {node.naglowek}
                             </h3>
@@ -195,7 +200,7 @@ const Poradnik = ({ data }) => {
 };
 export const query = graphql`
     query MyQuery {
-        allDatoCmsPoradnik(sort: {id: ASC}) {
+        allDatoCmsPoradnik(sort: { id: ASC }) {
             edges {
                 node {
                     hook
