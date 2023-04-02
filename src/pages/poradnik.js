@@ -5,7 +5,6 @@ import { StaticImage } from "gatsby-plugin-image";
 import { graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-
 const Poradnik = ({ data }) => {
     const { allDatoCmsPoradnik } = data;
     return (
@@ -163,7 +162,7 @@ const Poradnik = ({ data }) => {
                     </div>
                 </div>
                 {allDatoCmsPoradnik.edges.map(({ node }) => (
-                    <div className="flex flex-wrap items-stretch justify-center px-3 py-3">
+                    <div id={node.hook} className="flex flex-wrap items-stretch justify-center px-3 py-3">
                         <div
                             style={{ order: node.order }}
                             className="relative w-full order lg:w-1/2 flex flex-col items-center justify-center"
@@ -196,9 +195,10 @@ const Poradnik = ({ data }) => {
 };
 export const query = graphql`
     query MyQuery {
-        allDatoCmsPoradnik {
+        allDatoCmsPoradnik(sort: {id: ASC}) {
             edges {
                 node {
+                    hook
                     naglowek
                     opis
                     img {

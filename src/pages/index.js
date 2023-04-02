@@ -2,7 +2,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import { StaticImage } from "gatsby-plugin-image";
 
 import {
     HeroComponent,
@@ -10,6 +9,7 @@ import {
     IphoneComponent,
     WhyGatsbyComponent,
     CompaniesComponent,
+    QandA,
 } from "../components/index/indexComponents";
 
 const IndexPage = () => {
@@ -20,6 +20,7 @@ const IndexPage = () => {
             <IphoneComponent />
             <WhyGatsbyComponent />
             <CompaniesComponent />
+            <QandA />
         </Layout>
     );
 };

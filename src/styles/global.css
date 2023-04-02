@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-margin: 200px;
+}
+
 body {
     font-family: Signika, sans-serif;
     background: rgb(244, 247, 255);
