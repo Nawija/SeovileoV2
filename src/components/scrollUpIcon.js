@@ -23,8 +23,8 @@ const ScrollUpIcon = () => {
             aria-label="scroll to home"
             className={
                 !ScrollUpIcon
-                    ? "fixed right-6 bottom-24 transition-transform duration-1000 z-50 translate-x-[200%]"
-                    : "fixed right-6 hover:scale-110 bottom-24 translate-x-0 transition-transform duration-500 z-50 "
+                    ? "fixed right-4 bottom-20 transition-transform duration-1000 z-50 translate-x-[200%]"
+                    : "fixed right-4 hover:scale-110 bottom-20 translate-x-0 transition-transform duration-500 z-50 "
             }
             to="#"
         >

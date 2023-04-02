@@ -12,6 +12,12 @@ body {
     );
 }
 
+@media (max-width: 1024px){
+    .order{
+        order: 0 !important;
+    }
+}
+
 .navTextColor {
     color: rgb(22, 22, 22);
 }

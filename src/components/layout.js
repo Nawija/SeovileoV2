@@ -18,16 +18,14 @@ const Layout = ({ children }) => {
     `);
 
     return (
-        <>
+        <div className="relative">
             <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-            <div>
-                <main>{children}</main>
+            <main>{children}</main>
 
-                <Footer />
-                <Messenger />
-                <ScrollUpIcon />
-            </div>
-        </>
+            <Footer />
+            <Messenger />
+            <ScrollUpIcon />
+        </div>
     );
 };
 

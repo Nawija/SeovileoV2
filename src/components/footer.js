@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 const Footer = () => (
-    <footer className="w-full flex flex-col items-center justify-center bg-gray-800 px-1 py-12">
+    <footer className="w-full flex flex-col items-center justify-center bg-gray-800 px-1 py-12 mt-12">
         <Link to="/" className="text-xl md:text-2xl hover:text-gray-50 transition-colors duration-200 lg:text-3xl font-semibold capitalize text-gray-300">
             seovileo
         </Link>

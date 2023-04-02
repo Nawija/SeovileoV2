@@ -7,7 +7,17 @@ import { Link } from "gatsby";
 const Kontakt = () => {
     return (
         <Layout>
-            <div className="h-[90vh] flex items-center justify-center flex-col text-gray-700">
+            <div className="top-0 px-2 md:px-4 py-10 md:py-12 flex flex-col items-center justify-center text-center bg-gradient-to-tr from-green-100 to-green-200">
+                    <h1 className="text-xl capitalize md:text-2xl text-emerald-700 font-bold">
+                        Zamówienie strony internetowej
+                    </h1>
+                    <h2>
+                        Zobacz{" "}
+                        <strong className="font-medium">krok po kroku</strong>{" "}
+                        jak zamówic stronę internetową:
+                    </h2>
+                </div>
+            <div className="h-[40vh] flex items-center justify-center flex-col text-gray-700">
                 <p className="text-3xl capitalize font-semibold">
                     Strona w budowie
                 </p>

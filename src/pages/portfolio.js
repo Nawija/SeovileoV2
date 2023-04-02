@@ -46,6 +46,16 @@ const Portfolio = () => {
 
     return (
         <Layout>
+            <div className="top-0 px-2 md:px-4 py-10 md:py-12 flex flex-col items-center justify-center text-center bg-gradient-to-tr from-green-100 to-green-200">
+                <h1 className="text-xl capitalize md:text-2xl text-emerald-700 font-bold">
+                    Zamówienie strony internetowej
+                </h1>
+                <h2>
+                    Zobacz{" "}
+                    <strong className="font-medium">krok po kroku</strong> jak
+                    zamówic stronę internetową:
+                </h2>
+            </div>
             <div
                 className={
                     hiddenBody
@@ -189,7 +199,9 @@ const Portfolio = () => {
                                     )}
                                 </div>
                                 <div class="flex items-center justify-around pr-1 w-full mt-4">
-                                    <p className="text-zinc-700 font-semibold tracking">#mac-1</p>
+                                    <p className="text-zinc-700 font-semibold tracking">
+                                        #mac-1
+                                    </p>
                                     <button
                                         onClick={web1}
                                         className="py-2 text-gray-100 m-0 px-3 bg-gradient-to-tl from-violet-800 to-violet-400 shadow-violet-500 hover:shadow-violet-700 transition-all duration-200 rounded-lg shadow-lg"
@@ -219,7 +231,9 @@ const Portfolio = () => {
                                     )}
                                 </div>
                                 <div class="flex items-center justify-around pr-1 w-full mt-4 pb-4">
-                                    <p className="text-gray-700 font-semibold tracking">#mac-2</p>
+                                    <p className="text-gray-700 font-semibold tracking">
+                                        #mac-2
+                                    </p>
                                     <button
                                         onClick={web2}
                                         className="py-2 text-gray-100 m-0 px-3 bg-gradient-to-tl from-violet-800 to-violet-400 shadow-violet-500 hover:shadow-violet-700 transition-all duration-200 rounded-lg shadow-lg"
@@ -250,7 +264,9 @@ const Portfolio = () => {
                                     )}
                                 </div>
                                 <div class="flex items-center justify-around pr-1 w-full mt-4">
-                                    <p className="text-gray-700 font-semibold tracking">#mac-3</p>
+                                    <p className="text-gray-700 font-semibold tracking">
+                                        #mac-3
+                                    </p>
                                     <button
                                         onClick={web3}
                                         className="py-2 text-gray-100 m-0 px-3 bg-gradient-to-tl from-violet-800 to-violet-400 shadow-violet-500 hover:shadow-violet-700 transition-all duration-200 rounded-lg shadow-lg"
