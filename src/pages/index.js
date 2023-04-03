@@ -4,23 +4,23 @@ import Layout from "../components/layout";
 import Seo from "../components/seo";
 
 import {
+    Hero2Component,
     HeroComponent,
     CardsComponent,
     IphoneComponent,
     WhyGatsbyComponent,
     CompaniesComponent,
-    QandA,
 } from "../components/index/indexComponents";
 
 const IndexPage = () => {
     return (
         <Layout>
-            <HeroComponent />
+            <Hero2Component />
+            {/* <HeroComponent /> */}
             <CardsComponent />
             <IphoneComponent />
             <WhyGatsbyComponent />
             <CompaniesComponent />
-            <QandA />
         </Layout>
     );
 };

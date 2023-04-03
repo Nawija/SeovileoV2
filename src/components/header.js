@@ -26,7 +26,7 @@ const Header = () => {
     return (
         <header
             className="
-                    z-50 mx-auto sticky top-0 text-center
+                    z-50 mx-auto sticky bg-gray-900 top-0 text-center
             "
         >
             <div className="realtive bg-transparent transition-colors duration-200 w-full">
@@ -34,13 +34,13 @@ const Header = () => {
                     className={
                         !navbar
                             ? "h-full w-full absolute top-0 -z-10 transition-colors duration-300"
-                            : "h-full w-full bg-white lg:bg-white/80 lg:backdrop-blur-lg absolute top-0 -z-10 transition-colors duration-500"
+                            : "h-full w-full bg-gray-900 lg:bg-gray-800/80 lg:backdrop-blur-lg absolute top-0 -z-10 transition-colors duration-500"
                     }
                 ></div>
                 <nav
                     className={
                         showMenu
-                            ? "max-w-screen-xl mx-auto px-4 md:py-4 flex items-center justify-between w-full bg-white transition-colors duration-200 "
+                            ? "max-w-screen-xl mx-auto px-4 md:py-4 flex items-center justify-between w-full bg-gray-700 transition-colors duration-200 "
                             : "max-w-screen-xl mx-auto px-4 md:py-2 flex items-center justify-between w-full transition-colors duration-200"
                     }
                 >
